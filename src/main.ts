@@ -1,1 +1,6 @@
-console.log('Welcome TS')
+function Log(target: any) {
+    console.log(target)
+}
+
+@Log
+class Example {}
